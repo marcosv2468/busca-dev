@@ -23,6 +23,14 @@ Essa é a parte lógica da aplicação. Contém padrões como: index, show, upda
 - **destroy**: remove algum registro
 - **show**: retorna um único registro
 
+## React
+
+O React gira em torno de três conceitos: Componente, estado e propriedade.
+
+- **Componente**: é uma parte do código que retorna HTML, CSS ou JS. Evita repetir um trecho de código;
+- **Estado**: é um processo que monitora as mudanças de variáveis em um componente;
+- **Propriedade**: é um atributo do componente.
+
 ## Observações
 
 - **module.exports**: serve para tornar alguma variável, constante ou objeto de forma global, ou seja,
