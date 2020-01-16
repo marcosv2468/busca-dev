@@ -6,7 +6,7 @@ const app = express()
 const PORTA = 5000
 
 // Conectando com o MongoDB
-mongoose.connect('mongodb+srv://marcosv2468:<SocraM19>@cluster0-pvzeb.mongodb.net/DB_BUSCADEV?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://marcosv:marcosv@cluster0-pvzeb.mongodb.net/buscadev?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 })

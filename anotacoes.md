@@ -13,6 +13,16 @@
 - Route Params: request.params (Identificar um recurso na alteração ou remoção);
 - Body: request.body (Dados para criação ou alteração de algum registro).
 
+## Controller
+
+Essa é a parte lógica da aplicação. Contém padrões como: index, show, update, store e destroy
+
+- **index**: retorna algum tipo de listagem
+- **store**: salva algum Objeto
+- **update**: modifica algum registro
+- **destroy**: remove algum registro
+- **show**: retorna um único registro
+
 ## Observações
 
 - **module.exports**: serve para tornar alguma variável, constante ou objeto de forma global, ou seja,
